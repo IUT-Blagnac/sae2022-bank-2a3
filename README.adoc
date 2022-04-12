@@ -8,7 +8,7 @@ Vous devez ici présenter l'équipe et décrire un peu le projet puis mettre les
 |===
 | Date    | Nom         |  Lien                             | Retour
 | 03/04   | Gantt V1    |                                                              | pas de retour envoyé moi par mail le pdf
-|         | CdC V1      |                                   |   
+|         | CdC V1      |                                   |   https://github.com/IUT-Blagnac/sae2022-bank-2a3/blob/main/RetourCDCv1.adoc
 |         | Suivi Projet |                                   |   Votre projet étant privé je ne peux pas consulter les commits...
 Vous devez : créer une arborescence du projet ex images, sources, document ..  à faire
 Vous devez respecter les formats de documents demandés : gantt en pdf (je ne peux pas lire votre gantt) et documents en ASCIIdoc.
