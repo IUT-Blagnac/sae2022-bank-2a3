@@ -53,7 +53,7 @@ _Disponible uniquement pour le guichetier_ +
 _Seul le chef de l'agence peut rendre un compte inactif_
 
 ===== Schéma des fonctionalite présente
-image::Schéma.png[]
+image::Schéma.PNG[]
 
 === Fonctionnalités à developper
 ====
