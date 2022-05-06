@@ -15,7 +15,15 @@ Vous devez respecter les formats de documents demandés : gantt en pdf (je ne pe
 Vous n'aviez pas créé le readme... Je l'ai fait
 Les issues du projets doivent correspondre à votre gantt ici pas possible j'en ai qu'une... ils doivent être affectés, hiérarchisés, ordonnés en cours archevés...
 
-| 22/04  | CdC V2/V3 final|                                     |  
+| 22/04  | CdC V2/V3 final|      manque lien !!                               |  1,5/2	Manque nom du client. Manque liens dans le sommaire.
+1	/2 Manque lien dans le readme ! Relisez-vous il y a des fautes.
+1/4	Très succinct : contexte économique, problématique … De plus l'appli ne concerne pas que les guichetiers !
+1,5/4	Il faut expliquer le rôle des utilisateurs ! Donner le UC V0 de l'appli , les aspects techniques !
+1,5/4	Je n'ai que le UC de V1 !! Non commenté.
+3/4	Il manque les contraintes juridiques et les règles de gestion.
+	
+9,5	
+
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
 |         | Doc. Tec. V1 |        |    
