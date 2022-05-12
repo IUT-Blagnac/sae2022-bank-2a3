@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
-Rsrc-Class-Path: ./ org.eclipse.fx.ide.css.jfx8_3.7.0.202010120832.jar o
- jdbc6.jar
-Rsrc-Main-Class: application.DailyBankApp
-Class-Path: .
-
