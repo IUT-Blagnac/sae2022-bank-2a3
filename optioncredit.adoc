@@ -1,0 +1,19 @@
+Option crédité
+
+pour cette fonctionnalité nous avons seulement besoin de cette partie du usecase
+
+image
+
+parce que le guichetier à accès au commandes sur le compte du client  pour pouvoir credit
+
+
+nous avons besoin de cette partie du diagramme des classes
+
+image 
+
+car nous pouvons voir que
+chaque employé peut être un guichetier dans une agence bancaire et une agencebancaire peut gerer
+n'importe quel compte courant associer a cette agence
+
+
+
