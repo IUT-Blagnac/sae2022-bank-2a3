@@ -1,17 +1,19 @@
 [.text-center]
-= Cahier Des Charges 
+= Documentation utilisateur
 
-== Version 3
-01/05/2022
+
+== Version 1
+29/05/2022
 
 
 [.text-right]
 
 ==== _eleves groupe 2A3 :_ +
-_Hu Shiyu +
+_Prochaska Oryann +
 Babel Teddy +
 Sekoub Walaedine +
-Prochaska Oryann_
+Hu Shiyu_
+
 
 [.text-center]
 ==== SAE Bank S2 05 +
@@ -26,11 +28,9 @@ Etude economique
 
 == SOMMAIRE 
 . Présentation générale +
-. Fonctionnalités déjà présentes  +
-. Fonctionnalités à developper +
-. Use Case Diagram +
-. Analyse de l'existant +
-. Les Contraintes +
+. Installation utilisation +
+. Fonctionnement +
+. Resultat produit avec jeu d'essai commenté 
 
 <<<
 
@@ -38,12 +38,12 @@ Etude economique
 ====
 Notre client est la banque _DailyBank_ qui souhaite remplacer plusieurs outils obsolètes de gestion des comptes clients de la banque. +
 Notre travail sera donc d'adapter l'application déjà existante à ses nouveaux besoins. +
-Cette application est destinée aux guichetiers.
+Cette application est destinée aux guichetiers ainsi qu'aux chefs d'agences.
 
 
 ====
 
-=== Fonctionnalités déjà présentes ===
+=== Installation utilisation ===
 * Creation client 
 * Modifier informations d'un client
 * Consulter un compte
