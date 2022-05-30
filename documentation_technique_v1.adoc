@@ -1,0 +1,93 @@
+[.text-center]
+= Documentation technique
+
+
+== Version 1
+30/05/2022
+
+
+[.text-right]
+
+==== _eleves groupe 2A3 :_ +
+_Prochaska Oryann +
+Babel Teddy +
+Sekoub Walaedine +
+Hu Shiyu_
+
+
+[.text-center]
+==== SAE Bank S2 05 +
+Analyse besoins entreprise +
+Dossier de gestion de projet +
+Etude economique
+
+
+
+<<<
+
+
+== SOMMAIRE 
+. Présentation application +
+. Architecture +
+. Présentation et explication de tous les diagrammes : +
+.. Partie du use case mis en oeuvre 
+.. Diagramme de classse associé
+. Elements de code significatifs commentés
+
+<<<
+
+=== Présentation Application
+====
+Bienvenue sur l'application _DailyBank_ v1,
+cette application est structuré avec différents packages contenant :  
+
+.. La classe de #lancement application# +
+.. Les classes #contrôles# +
+... Décrit les fonctions utilisées dans les fenêtres (ex : boutons)
+.. Les classes #outils# +
+... Permet de détailler les classes objets
+.. Les classes #objet# +
+... Définit les types utilisés dans l'application
+.. Les classes #vues# +
+... Définissent les fenêtres en FXML et contiennent leur controleur
+.. Les classes #exception# +
+... Définissent les exceptions propres à l'application
+
+
+
+
+
+====
+
+=== Architecture
+
+
+=== Présentation et explication de tous les diagrammes
+====   Partie du use case mis en oeuvre
+====
+...
+====
+
+==== Diagramme de classse associé
+====
+...
+====
+
+===== Use Case Diagram
+
+
+=== Elements de code significatifs commentés
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

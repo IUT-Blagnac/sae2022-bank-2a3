@@ -1,0 +1,54 @@
+
+= Cahier Des Charges 
+_eleves groupe 2A3 :_ +
+
+-> Hu Shiyu +
+-> Babel Teddy +
+-> Sekoub Walaedine +
+-> Prochaska Oryann +
+
+<<<
+
+
+== SOMMAIRE 
+* Présentation générale +
+* Installation  utilisation  +
+* Fonctionnement +
+* Premiers résultats +
+
+<<<
+
+=== Présentation Générale
+====
+La banque _DailyBank_ souhaite remplacer plusieurs outils obsolètes de gestion des comptes clients. +
+Notre travail sera donc d'adapter l'application déjà existante à ses nouveaux besoins. 
+====
+
+==== Fonctionnalités déjà présentes ====
+* Creation client 
+* Modifier informations d'un client
+* Consulter un compte
+* Debiter un compte 
+* Rendre inactif un compte +
+_Disponible uniquement pour le guichetier_ +
+_Seul le chef de l'agence peut rendre un compte inactif_
+
+=== Fonctionnalités à developper
+====
+Guichetier : lui permettre de crediter ou debiter un compte ou le creer un compte, effectuer un virement de compte à compte et cloturer si besoin. +
+Chef d'agence : lui permettre de gerer les employes
+====
+
+===== Use Case Diagram
+image::usecase.png[] 
+=== Les Contraintes
+* Depot à effectuer sous GitHub
+* Participation de tous
+* Garder à jour la documentation du code 
+
+
+
+
+
+
+

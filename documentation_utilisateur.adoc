@@ -1,0 +1,86 @@
+[.text-center]
+= Documentation utilisateur
+
+
+== Version 1
+30/05/2022
+
+
+[.text-right]
+
+==== _eleves groupe 2A3 :_ +
+_Prochaska Oryann +
+Babel Teddy +
+Sekoub Walaedine +
+Hu Shiyu_
+
+
+[.text-center]
+==== SAE Bank S2 05 +
+Analyse besoins entreprise +
+Dossier de gestion de projet +
+Etude economique
+
+
+
+<<<
+
+
+== SOMMAIRE 
+. Présentation générale +
+. Installation utilisation +
+. Fonctionnement +
+. Resultat produit avec jeu d'essai commenté 
+
+<<<
+
+=== Présentation Générale
+====
+Bienvenue sur l'application _DailyBank_ v1, une version amélioré. +
+Dans cette nouvelle version nous y avons inclus plusieurs nouvelles fonctionnalités à savoir : +
+... _#Clôturer# un compte client +
+... #Gérer# les employes et chefs d'agence +
+... #Créer# un compte client +
+... #Debiter# un compte client +
+... #Créditer# un compte client_ +
+
+
+Cette application est néanmoins toujours destinée aux guichetiers ainsi qu'aux chefs d'agences.
+
+
+====
+
+=== Installation et utilisation
+* Execution avec un double clic sur le fichier avec l'extension .jar ou bien après une extraction du fichier compressé. +
+* Une connexion à un compte chef d'agence est nécessaire pour modifier les employés et autres chefs d'agences. +
+* Un guichetier peut debiter, crediter et creer un compte client. +
+
+
+#_Seul le chef de l'agence peut rendre un compte inactif_#
+
+===== Schéma des fonctionalite présente
+
+
+=== Fonctionnement 
+====
+
+====
+
+===== Use Case Diagram
+
+
+=== Resultat produit avec jeu d'essai commenté
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
