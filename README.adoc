@@ -27,7 +27,7 @@ Les issues du projets doivent correspondre à votre gantt ici pas possible j'en 
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
 |         | Doc. Tec. V1 |        |    
-|         | Doc User V1    |        |
+|         | Doc User V1    |        |retard V1
 |         | Recette V1  |                      | 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |       | 
