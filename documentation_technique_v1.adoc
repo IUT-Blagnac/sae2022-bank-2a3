@@ -60,42 +60,43 @@ Cette application est néanmoins toujours destinée aux guichetiers ainsi qu'aux
 #_Seul le chef de l'agence peut rendre un compte inactif_#
 
 ===== Schéma des fonctionalite présente
-image::USC.PNG[]
+
 
 === Fonctionnement Pour Le Guichetier
 
 ====Crediter/Debiter
-*Apres vous êtres connecter, cliquer sur gestion et selectionné client.+
-*Renseigner les information du client et cliquer sur rechercher.+
-*Selectionner le client et cliquer sur Comptes client.+
-*Selectionner un compte et cliquer sur Voir operation afin d'enregister un credit ou un debit.+
+*Apres vous êtres connecter, cliquer sur gestion et selectionné client. +
+*Renseigner les information du client et cliquer sur rechercher. +
+*Selectionner le client et cliquer sur Comptes client. +
+*Selectionner un compte et cliquer sur Voir operation afin d'enregister un credit ou un debit. +
 
 ====Nouveau Compte
-*Apres vous êtres connecter, cliquer sur gestion et selectionné client.+
-*Renseigner les information du client et cliquer sur rechercher.+
-*Selectionner le client et cliquer sur Comptes client.+
-*Cliquer sur Nouveau compte.+
-*Renseigner le montant du decouvert autorisé, ainsi que le solde de debut(doit êtres superieur ou égal a 50).+
+*Apres vous êtres connecter, cliquer sur gestion et selectionné client. +
+*Renseigner les information du client et cliquer sur rechercher. +
+*Selectionner le client et cliquer sur Comptes client. +
+*Cliquer sur Nouveau compte. +
+*Renseigner le montant du decouvert autorisé, ainsi que le solde de debut(doit êtres superieur ou égal a 50). +
 
 ====Cloturer Compte
-*Apres vous êtres connecter, cliquer sur gestion et selectionné client.+
-*Renseigner les information du client et cliquer sur rechercher.+
-*Selectionner le client et cliquer sur Comptes client.+
-*Selectionner ensuite un compte.+
-*Cliquer sur Cloturer compte.+
-*Puis valider la cloturation du compte.+
+*Apres vous êtres connecter, cliquer sur gestion et selectionné client. +
+*Renseigner les information du client et cliquer sur rechercher. +
+*Selectionner le client et cliquer sur Comptes client. +
+*Selectionner ensuite un compte. +
+*Cliquer sur Cloturer compte. +
+*Puis valider la cloturation du compte. +
 
 ====Virement Compte à Compte
 
 
 ==== Fonctionnement Pour Le Guichetier
+
 ====Desactiver un client
-*Apres vous êtres connecter, cliquer sur gestion et selectionné client.+
-*Renseigner les information du client et cliquer sur rechercher.+
-*Selectionner le client et cliquer sur Comptes client.+
+*Apres vous êtres connecter, cliquer sur gestion et selectionné client. +
+*Renseigner les information du client et cliquer sur rechercher. +
+*Selectionner le client et cliquer sur Desactiver client. +
 
 ===== Use Case Diagram
-
+image::USC.PNG[]
 
 === Resultat produit avec jeu d'essai commenté
  
