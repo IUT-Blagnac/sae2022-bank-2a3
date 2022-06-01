@@ -37,6 +37,20 @@ Etude economique
 <<<
 
 === Présentation Application
+
+====
+image::USC.PNG[]
+Le guichetier a pour mission de gérer les comptes courants du client ainsi que c'est information. +
+Le chef d'agence a les mêmes missions que le guichetier,cependant il doit aussi gérer les employées et il est le seul a pouvoir suprimer un compte client. +
+
+
+
+
+
+====
+
+=== Architecture
+
 ====
 Bienvenue sur l'application _DailyBank_ v1,
 cette application est structuré avec différents packages contenant :  
@@ -53,13 +67,6 @@ cette application est structuré avec différents packages contenant :
 .. Les classes #exception# +
 ... Définissent les exceptions propres à l'application
 
-
-
-
-
-====
-
-=== Architecture
 
 
 === Présentation et explication de tous les diagrammes
