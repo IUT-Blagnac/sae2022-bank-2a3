@@ -60,7 +60,7 @@ Cette application est néanmoins toujours destinée aux guichetiers ainsi qu'aux
 #_Seul le chef de l'agence peut rendre un compte inactif_#
 
 ===== Schéma des fonctionalite présente
-image::USC.png[]
+image::USC.PNG[]
 
 === Fonctionnement Pour Le Guichetier
 
