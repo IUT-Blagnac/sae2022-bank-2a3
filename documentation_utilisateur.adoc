@@ -80,6 +80,89 @@ Les employés et les chefs d'agence travaillent dans une agence bancaire, il ne 
 
 
 === Elements de code significatifs commentés
+ === Permet de crée un Compte Courant(Fonction mis en place par Walaedine Sekoub)
+
+/**
+	 * Creation d'un nouveau compte.
+	 * @return un nouveau compte
+	 */ 
+public CompteCourant creerCompte() {
+		CompteCourant compte;
+		CompteEditorPane cep = new CompteEditorPane(this.primaryStage, this.dbs);
+		compte = cep.doCompteEditorDialog(this.clientDesComptes, null, EditionMode.CREATION);
+		if (compte != null) {
+			try {
+				AccessCompteCourant ac= new AccessCompteCourant();
+				ac.insertNewCompteCourant(compte.debitAutorise, compte.solde, this.clientDesComptes.idNumCli);
+				
+				// TODO : enregistrement du nouveau compte en BDD (la BDD donne de nouvel id
+				// dans "compte")
+
+				// if JAMAIS vrai
+				// existe pour compiler les catchs dessous
+				if (Math.random() < -1) {
+					throw new ApplicationException(Table.CompteCourant, Order.INSERT, "todo : test exceptions", null);
+				}
+			} catch (DatabaseConnexionException e) {
+				ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, e);
+				ed.doExceptionDialog();
+				this.primaryStage.close();
+				compte=null;
+			} catch (ApplicationException ae) {
+				ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, ae);
+				ed.doExceptionDialog();
+				compte=null;
+			}
+		}
+		return compte;
+	}
+ 
+ /**
+	 * Enregistrement d'un nouveau compte.
+	 *
+	 * Se fait par procédure stockée : - Vérifie que le débitAutorisé n'est pas
+	 * dépassé - Enregistre le montant de départ.
+	 *
+	 * @param idNumClient propriétaire du compte
+	 * @param montant     montant premier dépot
+	 * @param debitAutorise  montant du debitAutoriser
+	 * @throws RowNotFoundOrTooManyRowsException
+	 * @throws DataAccessException
+	 * @throws DatabaseConnexionException
+	 * @throws ManagementRuleViolation
+	 */
+	public void insertNewCompteCourant(double debitAutorise, double montant,int idNumClient)
+			throws DatabaseConnexionException, ManagementRuleViolation, DataAccessException {
+		try {
+			Connection con = LogToDatabase.getConnexion();
+			CallableStatement call;
+
+			String q = "{call CreerCompte (?, ?, ?, ?)}";
+			// les ? correspondent aux paramètres : cf. déf procédure (4 paramètres)
+			call = con.prepareCall(q);
+			// Paramètres in
+			call.setDouble(1, debitAutorise);
+			// 1 -> valeur du premier paramètre, cf. déf procédure
+			call.setDouble(2, montant);
+			call.setInt(3, idNumClient);
+			// Paramètres out
+			call.registerOutParameter(4, java.sql.Types.INTEGER);
+			// 4 type du quatrième paramètre qui est déclaré en OUT, cf. déf procédure
+
+			call.execute();
+
+			int res = call.getInt(4);
+
+			if (res < 0) { // Erreur applicative
+				throw new ManagementRuleViolation(Table.CompteCourant, Order.INSERT,
+						"Erreur de règle de gestion : Montant initiale trop petite ", null);
+			}
+		} catch (SQLException e) {
+			throw new DataAccessException(Table.CompteCourant, Order.INSERT, "Erreur accès", e);
+		}
+	}
+
+ 
  
 
 
