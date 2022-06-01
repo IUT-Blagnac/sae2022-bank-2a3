@@ -80,12 +80,9 @@ Les employés et les chefs d'agence travaillent dans une agence bancaire, il ne 
 
 
 === Elements de code significatifs commentés
- === Permet de crée un Compte Courant(Fonction mis en place par Walaedine Sekoub)
+=== Permet de crée un Compte Courant(Fonction mis en place par Walaedine Sekoub)
 
-/**
-	 * Creation d'un nouveau compte.
-	 * @return un nouveau compte
-	 */ 
+//Crée un nouveau Compte
 public CompteCourant creerCompte() {
 		CompteCourant compte;
 		CompteEditorPane cep = new CompteEditorPane(this.primaryStage, this.dbs);
@@ -117,20 +114,7 @@ public CompteCourant creerCompte() {
 		return compte;
 	}
  
- /**
-	 * Enregistrement d'un nouveau compte.
-	 *
-	 * Se fait par procédure stockée : - Vérifie que le débitAutorisé n'est pas
-	 * dépassé - Enregistre le montant de départ.
-	 *
-	 * @param idNumClient propriétaire du compte
-	 * @param montant     montant premier dépot
-	 * @param debitAutorise  montant du debitAutoriser
-	 * @throws RowNotFoundOrTooManyRowsException
-	 * @throws DataAccessException
-	 * @throws DatabaseConnexionException
-	 * @throws ManagementRuleViolation
-	 */
+//enregistremment du nouveau compte dans la base de donnée
 	public void insertNewCompteCourant(double debitAutorise, double montant,int idNumClient)
 			throws DatabaseConnexionException, ManagementRuleViolation, DataAccessException {
 		try {
