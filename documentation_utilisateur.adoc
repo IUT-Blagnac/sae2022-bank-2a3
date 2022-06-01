@@ -1,5 +1,5 @@
 [.text-center]
-= Documentation utilisateur
+= Documentation technique
 
 
 == Version 1
@@ -27,49 +27,59 @@ Etude economique
 
 
 == SOMMAIRE 
-. Présentation générale +
-. Installation utilisation +
-. Fonctionnement +
-. Resultat produit avec jeu d'essai commenté 
+. Présentation application +
+. Architecture +
+. Présentation et explication de tous les diagrammes : +
+.. Partie du use case mis en oeuvre 
+.. Diagramme de classse associé
+. Elements de code significatifs commentés
 
 <<<
 
-=== Présentation Générale
+=== Présentation Application
 ====
-Bienvenue sur l'application _DailyBank_ v1, une version amélioré. +
-Dans cette nouvelle version nous y avons inclus plusieurs nouvelles fonctionnalités à savoir : +
-... _#Clôturer# un compte client +
-... #Gérer# les employes et chefs d'agence +
-... #Créer# un compte client +
-... #Debiter# un compte client +
-... #Créditer# un compte client_ +
+Bienvenue sur l'application _DailyBank_ v1,
+cette application est structuré avec différents packages contenant :  
+
+.. La classe de #lancement application# +
+.. Les classes #contrôles# +
+... Décrit les fonctions utilisées dans les fenêtres (ex : boutons)
+.. Les classes #outils# +
+... Permet de détailler les classes objets
+.. Les classes #objet# +
+... Définit les types utilisés dans l'application
+.. Les classes #vues# +
+... Définissent les fenêtres en FXML et contiennent leur controleur
+.. Les classes #exception# +
+... Définissent les exceptions propres à l'application
 
 
-Cette application est néanmoins toujours destinée aux guichetiers ainsi qu'aux chefs d'agences.
 
 
-====
-
-=== Installation et utilisation
-* Execution avec un double clic sur le fichier avec l'extension .jar ou bien après une extraction du fichier compressé. +
-* Une connexion à un compte chef d'agence est nécessaire pour modifier les employés et autres chefs d'agences. +
-* Un guichetier peut debiter, crediter et creer un compte client. +
-
-
-#_Seul le chef de l'agence peut rendre un compte inactif_#
-
-===== Schéma des fonctionalite présente
-
-
-=== Fonctionnement 
-====
 
 ====
 
-===== Use Case Diagram
+=== Architecture
 
 
-=== Resultat produit avec jeu d'essai commenté
+=== Présentation et explication de tous les diagrammes
+====   Partie du use case mis en oeuvre
+====
+image::partie01_v1_usecase.png[]
+Le chef d'agence peut à présent gérer les employés grâce à une fenêtre similaire à celle de gestion des clients. +
+
+image::partie2_v1_usecase.png[]
+Le guichetier peut maintenant créditer/débiter, créer un compte client, faire un virement de compte à compte ou clôturer un compte.
+====
+
+==== Diagramme de classse associé
+====
+image::UML.png[]
+Les employés et les chefs d'agence travaillent dans une agence bancaire, il ne peut y avoir qu'un chef par agence et autant d'employés que nécessaire. Une agence bancaire a minimum 1 client. Un client peuvent avoir plusieurs comptes courants sur lesquels peuvent être effectués des opérations qui possèdent à chaque fois un type.
+====
+
+
+=== Elements de code significatifs commentés
  
 
 
