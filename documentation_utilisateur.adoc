@@ -82,8 +82,8 @@ Les employés et les chefs d'agence travaillent dans une agence bancaire, il ne 
 === Elements de code significatifs commentés
 === Permet de crée un Compte Courant(Fonction mis en place par Walaedine Sekoub)
 
-//Crée un nouveau Compte
-public CompteCourant creerCompte() {
+	//Crée un nouveau Compte. +
+	public CompteCourant creerCompte() {
 		CompteCourant compte;
 		CompteEditorPane cep = new CompteEditorPane(this.primaryStage, this.dbs);
 		compte = cep.doCompteEditorDialog(this.clientDesComptes, null, EditionMode.CREATION);
