@@ -51,7 +51,10 @@ Le chef d'agence a les mêmes missions que le guichetier,cependant il doit aussi
 
 === Architecture
 ====
-Diagramme Séquence :. +
+Diagramme Séquence : +
+
+====
+
 image::DiagrammeSequence.png[]
 ====
 Bienvenue sur l'application _DailyBank_ v1,
