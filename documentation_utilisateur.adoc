@@ -86,14 +86,15 @@ Le guichetier peut maintenant créditer/débiter, créer un compte client, faire
 
 ==== Diagramme de classse associé
 ====
-image::UML.png[]
+image::UMLV1.PNG[]
 Les employés et les chefs d'agence travaillent dans une agence bancaire, il ne peut y avoir qu'un chef par agence et autant d'employés que nécessaire. Une agence bancaire a minimum 1 client. Un client peuvent avoir plusieurs comptes courants sur lesquels peuvent être effectués des opérations qui possèdent à chaque fois un type.
 ====
 
 
-=== Elements de code significatifs commentés
-=== Permet de crée un Compte Courant(Fonction mis en place par Walaedine Sekoub)
+=== Elements de code significatifs commentés. +
+=== Permet de crée un Compte Courant(Fonction mis en place par Walaedine Sekoub) +
 
+----
 	//Crée un nouveau Compte. +
 	public CompteCourant creerCompte() {
 		CompteCourant compte;
@@ -157,6 +158,10 @@ Les employés et les chefs d'agence travaillent dans une agence bancaire, il ne 
 			throw new DataAccessException(Table.CompteCourant, Order.INSERT, "Erreur accès", e);
 		}
 	}
+	
+	
+
+----
 
  
  
