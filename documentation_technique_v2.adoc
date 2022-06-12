@@ -9,6 +9,7 @@
 [.text-right]
 
 
+
 ==== _eleves groupe 2A3 :_ +
 _Prochaska Oryann +
 Babel Teddy +
@@ -21,6 +22,7 @@ Hu Shiyu_
 Analyse besoins entreprise +
 Dossier de gestion de projet +
 Etude economique
+
 
 
 
@@ -109,16 +111,27 @@ image::Initiale.PNG[]
 ...
 
 === Simuler un emprunt
-...
+* Après s'être connecté,
 
 === Simuler une assurance d’emprunt
-
+* Après s'être connecté,
 
 ===== Use Case Diagram
 image::USC.PNG[]
 
 === Resultat produit avec jeu d'essai commenté
- 
+ ---
+image::fiche_test_v2_1.png[]
+image::fiche_test_v2_2.png[]
+image::fiche_test_v2_3.png[]
+image::fiche_test_v2_4.png[]
+image::fiche_test_v2_5.png[]
+image::fiche_test_v2_6.png[]
+image::fiche_test_v2_7.png[]
+image::fiche_test_v2_8.png[]
+image::fiche_test_v2_9.png[]
+image::fiche_test_v2_10.png[]
+ ---
 
 
 
