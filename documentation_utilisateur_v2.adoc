@@ -6,6 +6,7 @@
 08/06/2022
 
 
+
 [.text-right]
 
 ==== _eleves groupe 2A3 :_ +
@@ -85,11 +86,17 @@ image::use_case_v2_chefA.png[]
 === Résultats produits avec jeux d'essai commentés +
 ====
 
+image::fiche_test_v2_1.png[]
+image::fiche_test_v2_2.png[]
+image::fiche_test_v2_3.png[]
+image::fiche_test_v2_4.png[]
+image::fiche_test_v2_5.png[]
+image::fiche_test_v2_6.png[]
+image::fiche_test_v2_7.png[]
+image::fiche_test_v2_8.png[]
+image::fiche_test_v2_9.png[]
+image::fiche_test_v2_10.png[]
 
-----
-
-
-----
 
  
  

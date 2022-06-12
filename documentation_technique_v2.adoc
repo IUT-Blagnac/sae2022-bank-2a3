@@ -25,7 +25,6 @@ Etude economique
 
 
 
-
 <<<
 
 
@@ -89,7 +88,9 @@ image::Initiale.PNG[]
 * Puis valider la cloturation du compte. +
 
 === Virement Compte à Compte
-...
+* Apres s'être connecté, cliquer sur #'Gestion'#
+* sélectionner un client, son compte
+* Cliquer sur #'Virement'# et choisir le montant puis le compte visé
 
 === Générer un relevé mensuel
 * Apres s'être connecté, cliquer sur #'Gestion'# et selectionner #'Clients'#. +
@@ -97,7 +98,10 @@ image::Initiale.PNG[]
 * Selectionner le client puis cliquer sur #'Relevé mensuel'#.
 
 === Gérer les prélèvements automatiques
-...
+* Apres s'être connecté, cliquer sur #'Gestion'#
+* sélectionner un client, son compte
+* Cliquer sur #'Prélèvement'# 
+* Pour chacun il est possible de l'effacer, le modifier ou en ajouter un nouveau.
 
 
 == Fonctions pour le Chef d'agence
@@ -107,14 +111,12 @@ image::Initiale.PNG[]
 * Renseigner les informations du client et cliquer sur #'Rechercher'#. +
 * Sélectionner le client et cliquer sur #'Desactiver client'#. +
 
-=== Effectuer un Débit exceptionnel
-...
 
-=== Simuler un emprunt
-* Après s'être connecté,
+=== Simuler un emprunt et simuler une assurance d’emprunt
+* Après s'être connecté, cliquer sur gestion et selectionner #'Simulation'#
+* Deux choix s'offrent à vous soit simulation emprunt soit simulation assurance emprunt
+* Pour les deux vous devez remplir les cases indiquées et après a validation vous obtiendrez le résultat sur la partie gauche de la fenêtre.
 
-=== Simuler une assurance d’emprunt
-* Après s'être connecté,
 
 ===== Use Case Diagram
 image::USC.PNG[]
