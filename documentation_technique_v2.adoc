@@ -127,7 +127,7 @@ image::Initiale.PNG[]
 * Renseigner les informations du client et cliquer sur #'Rechercher'#. +
 * Sélectionner le Employe et cliquer sur #'Modifier Employe'#. +
 
-=== ajouter un nouveau employe
+=== Ajouter un nouveau employe
 * Après s'être connecté, cliquer sur gestion et selectionner #'Employe'#. +
 * Renseigner les informations du client et cliquer sur #'Rechercher'#. +
 * Sélectionner le Employe et cliquer sur #'Nouveau Employe'#. +
