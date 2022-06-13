@@ -39,7 +39,7 @@ Les issues du projets doivent correspondre à votre gantt ici pas possible j'en 
 |         | `jar` projet |    | 
 | 05/06   | Gantt V3 à Jour  |    |  
 |         | Doc. Util. V2 |         |  https://github.com/IUT-Blagnac/sae2022-bank-2a3/blob/main/documentation_utilisateur_v2.adoc         
-|         | Doc. Tec. V2 |    |     
+|         | Doc. Tec. V2 |    |  https://github.com/IUT-Blagnac/sae2022-bank-2a3/blob/main/documentation_technique_v2.adoc   
 |         | Code V2     |                       |
 |         | Recette V2  |   |
 |         | `jar` projet |     |
