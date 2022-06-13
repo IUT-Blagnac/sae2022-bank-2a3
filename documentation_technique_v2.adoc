@@ -117,6 +117,20 @@ image::Initiale.PNG[]
 * Deux choix s'offrent à vous soit simulation emprunt soit simulation assurance emprunt
 * Pour les deux vous devez remplir les cases indiquées et après a validation vous obtiendrez le résultat sur la partie gauche de la fenêtre.
 
+=== Desactiver un employe
+* Après s'être connecté, cliquer sur gestion et selectionner #'Employe'#. +
+* Renseigner les informations du client et cliquer sur #'Rechercher'#. +
+* Sélectionner le Employe et cliquer sur #'Desactiver Employe'#. +
+
+=== Modifier un employe
+* Après s'être connecté, cliquer sur gestion et selectionner #'Employe'#. +
+* Renseigner les informations du client et cliquer sur #'Rechercher'#. +
+* Sélectionner le Employe et cliquer sur #'Modifier Employe'#. +
+
+=== ajouter un nouveau employe
+* Après s'être connecté, cliquer sur gestion et selectionner #'Employe'#. +
+* Renseigner les informations du client et cliquer sur #'Rechercher'#. +
+* Sélectionner le Employe et cliquer sur #'Nouveau Employe'#. +
 
 ===== Use Case Diagram
 image::USC.PNG[]
