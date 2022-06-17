@@ -1,0 +1,37 @@
+= Repartition du travail
+
+== Groupe 2A3
+
+==== Oryann Prochaska (chef d'équipe)
+* Gestion du CRUD employés +
+* Générer un relevé mensuel en pdf +
+* Cahier des charges V3 +
+* Documentation utilisateur v1 +
+* Documentation technique et utilisateur V2 +
+* Diaporama de présentation oral de gestion de projet +
+
+==== Walaedine Sekoub
+* Creation,modification,cloturer compte courant +
+* Modification,desactiver compte client +
+* Creation,modification,desactiver employe +
+* Simulation Assurance et Emprunt +
+* Cahier des charges V3 +
+* Documentation technique et utilisateur V1 +
+* Documentation  utilisateur V2 +
+* Diagramme Use Case V1 +
+
+==== Shiyu Hu
+* Debit exceptionnel (non terminé) +
+* Jeu d'essais +
+* Cahier de recettes +
+
+==== Teddy Babel
+* Gantt V1 et V2 +
+* Virement compte à comte +
+* Prelevement automatique
+* Crediter et Debiter +
+* Diagramme Use Case V1 et V2 +
+
+
+
+
